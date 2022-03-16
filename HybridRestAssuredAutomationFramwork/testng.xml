@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="REQRESAPITesting">
+
+<listeners>
+	<listener class-name="ReqRes_Utilities.Listners_Extent"/>
+</listeners>
+
+ 	 <test thread-count="5" name="REQRESAPITesting">
+   <classes>
+			<class name="ReqRes_TestCase.TC_001_GetAllUsers"/>
+			<class name="ReqRes_TestCase.TC_002_GetSingleUser"/>
+			<class name="ReqRes_TestCase.TC_003_PostCreateUsers"/>
+
+
+	</classes>
+  </test><!-- Test-->
+
+</suite><!-- Suite-->

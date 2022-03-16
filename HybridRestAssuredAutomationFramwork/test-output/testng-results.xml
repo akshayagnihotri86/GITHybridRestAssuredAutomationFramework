@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="14" passed="14" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-16T10:01:17 IST" name="REQRESAPITesting" finished-at="2022-03-16T10:01:35 IST" duration-ms="17644">
+    <groups>
+    </groups>
+    <test started-at="2022-03-16T10:01:17 IST" name="REQRESAPITesting" finished-at="2022-03-16T10:01:35 IST" duration-ms="17644">
+      <class name="ReqRes_TestCase.TC_002_GetSingleUser">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ReqRes_TestCase.TC_002_GetSingleUser@57cf54e1]" started-at="2022-03-16T10:01:29 IST" name="setUp" finished-at="2022-03-16T10:01:29 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="getUser()[pri:0, instance:ReqRes_TestCase.TC_002_GetSingleUser@57cf54e1]" started-at="2022-03-16T10:01:29 IST" name="getUser" finished-at="2022-03-16T10:01:31 IST" duration-ms="2200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUser -->
+        <test-method signature="checkContentLength()[pri:0, instance:ReqRes_TestCase.TC_002_GetSingleUser@57cf54e1]" started-at="2022-03-16T10:01:31 IST" name="checkContentLength" finished-at="2022-03-16T10:01:31 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentLength -->
+        <test-method signature="checkContentType()[pri:0, instance:ReqRes_TestCase.TC_002_GetSingleUser@57cf54e1]" started-at="2022-03-16T10:01:31 IST" name="checkContentType" finished-at="2022-03-16T10:01:31 IST" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method signature="checkResponseBody()[pri:0, instance:ReqRes_TestCase.TC_002_GetSingleUser@57cf54e1]" started-at="2022-03-16T10:01:31 IST" name="checkResponseBody" finished-at="2022-03-16T10:01:31 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseBody -->
+        <test-method signature="checkServerType()[pri:0, instance:ReqRes_TestCase.TC_002_GetSingleUser@57cf54e1]" started-at="2022-03-16T10:01:31 IST" name="checkServerType" finished-at="2022-03-16T10:01:31 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkServerType -->
+        <test-method signature="checkStatusCode()[pri:0, instance:ReqRes_TestCase.TC_002_GetSingleUser@57cf54e1]" started-at="2022-03-16T10:01:31 IST" name="checkStatusCode" finished-at="2022-03-16T10:01:31 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method signature="checkStatusLine()[pri:0, instance:ReqRes_TestCase.TC_002_GetSingleUser@57cf54e1]" started-at="2022-03-16T10:01:31 IST" name="checkStatusLine" finished-at="2022-03-16T10:01:31 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusLine -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:ReqRes_TestCase.TC_002_GetSingleUser@57cf54e1]" started-at="2022-03-16T10:01:31 IST" name="teardown" finished-at="2022-03-16T10:01:31 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- ReqRes_TestCase.TC_002_GetSingleUser -->
+      <class name="ReqRes_TestCase.TC_003_PostCreateUsers">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ReqRes_TestCase.TC_003_PostCreateUsers@3a44431a]" started-at="2022-03-16T10:01:31 IST" name="setUp" finished-at="2022-03-16T10:01:31 IST" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="createUsers()[pri:0, instance:ReqRes_TestCase.TC_003_PostCreateUsers@3a44431a]" started-at="2022-03-16T10:01:31 IST" name="createUsers" finished-at="2022-03-16T10:01:35 IST" duration-ms="3612" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUsers -->
+        <test-method signature="checkResponseBody()[pri:0, instance:ReqRes_TestCase.TC_003_PostCreateUsers@3a44431a]" started-at="2022-03-16T10:01:35 IST" name="checkResponseBody" finished-at="2022-03-16T10:01:35 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseBody -->
+        <test-method signature="checkStatusCode()[pri:0, instance:ReqRes_TestCase.TC_003_PostCreateUsers@3a44431a]" started-at="2022-03-16T10:01:35 IST" name="checkStatusCode" finished-at="2022-03-16T10:01:35 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method signature="checkStatusLine()[pri:0, instance:ReqRes_TestCase.TC_003_PostCreateUsers@3a44431a]" started-at="2022-03-16T10:01:35 IST" name="checkStatusLine" finished-at="2022-03-16T10:01:35 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusLine -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:ReqRes_TestCase.TC_003_PostCreateUsers@3a44431a]" started-at="2022-03-16T10:01:35 IST" name="teardown" finished-at="2022-03-16T10:01:35 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- ReqRes_TestCase.TC_003_PostCreateUsers -->
+      <class name="ReqRes_TestCase.TC_001_GetAllUsers">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ReqRes_TestCase.TC_001_GetAllUsers@2ed2d9cb]" started-at="2022-03-16T10:01:18 IST" name="setUp" finished-at="2022-03-16T10:01:18 IST" duration-ms="102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="GetAllUsers()[pri:0, instance:ReqRes_TestCase.TC_001_GetAllUsers@2ed2d9cb]" started-at="2022-03-16T10:01:18 IST" name="GetAllUsers" finished-at="2022-03-16T10:01:28 IST" duration-ms="10146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetAllUsers -->
+        <test-method signature="checkContentType()[pri:0, instance:ReqRes_TestCase.TC_001_GetAllUsers@2ed2d9cb]" started-at="2022-03-16T10:01:28 IST" name="checkContentType" finished-at="2022-03-16T10:01:28 IST" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method signature="checkResponseBody()[pri:0, instance:ReqRes_TestCase.TC_001_GetAllUsers@2ed2d9cb]" started-at="2022-03-16T10:01:28 IST" name="checkResponseBody" finished-at="2022-03-16T10:01:28 IST" duration-ms="78" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseBody -->
+        <test-method signature="checkResponseTime()[pri:0, instance:ReqRes_TestCase.TC_001_GetAllUsers@2ed2d9cb]" started-at="2022-03-16T10:01:28 IST" name="checkResponseTime" finished-at="2022-03-16T10:01:28 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method signature="checkStatusCode()[pri:0, instance:ReqRes_TestCase.TC_001_GetAllUsers@2ed2d9cb]" started-at="2022-03-16T10:01:28 IST" name="checkStatusCode" finished-at="2022-03-16T10:01:28 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method signature="checkStatusLine()[pri:0, instance:ReqRes_TestCase.TC_001_GetAllUsers@2ed2d9cb]" started-at="2022-03-16T10:01:28 IST" name="checkStatusLine" finished-at="2022-03-16T10:01:28 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusLine -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:ReqRes_TestCase.TC_001_GetAllUsers@2ed2d9cb]" started-at="2022-03-16T10:01:29 IST" name="teardown" finished-at="2022-03-16T10:01:29 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- ReqRes_TestCase.TC_001_GetAllUsers -->
+    </test> <!-- REQRESAPITesting -->
+  </suite> <!-- REQRESAPITesting -->
+</testng-results>

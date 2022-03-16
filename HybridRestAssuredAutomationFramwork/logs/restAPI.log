@@ -1,0 +1,227 @@
+2022-03-15 17:14:51 INFO  GetAllUsersRestAPI:21 - *************Started TC_002_Get User*************
+  2022-03-15 17:14:58 INFO  GetAllUsersRestAPI:78 - *************Checking Content Length*************
+  2022-03-15 17:14:58 INFO  GetAllUsersRestAPI:50 - *************Checking Content Type*************
+  2022-03-15 17:14:58 INFO  GetAllUsersRestAPI:52 - Content Type is ==>application/json; charset=utf-8
+  2022-03-15 17:14:58 INFO  GetAllUsersRestAPI:31 - *************Checking Response Body*************
+  2022-03-15 17:14:58 INFO  GetAllUsersRestAPI:33 - Response body ===>{"data":{"id":2,"name":"fuchsia rose","year":2001,"color":"#C74375","pantone_value":"17-2031"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+  2022-03-15 17:14:58 INFO  GetAllUsersRestAPI:67 - *************Checking Server Type*************
+  2022-03-15 17:14:58 INFO  GetAllUsersRestAPI:69 - Server Type is ==>cloudflare
+  2022-03-15 17:14:58 INFO  GetAllUsersRestAPI:59 - *************Checking Status Code*************
+  2022-03-15 17:14:58 INFO  GetAllUsersRestAPI:61 - Status Code is ===>200
+  2022-03-15 17:14:58 INFO  GetAllUsersRestAPI:41 - *************Checking Status Line*************
+  2022-03-15 17:14:58 INFO  GetAllUsersRestAPI:43 - Status line is ==>HTTP/1.1 200 OK
+  2022-03-15 17:14:58 INFO  GetAllUsersRestAPI:89 - *************Finished TC_002_Get User*************
+  2022-03-15 18:03:10 INFO  GetAllUsersRestAPI:26 - *************Started TC_003_Post Create Users*************
+  2022-03-15 18:03:55 INFO  GetAllUsersRestAPI:26 - *************Started TC_003_Post Create Users*************
+  2022-03-15 18:09:11 INFO  GetAllUsersRestAPI:26 - *************Started TC_003_Post Create Users*************
+  2022-03-15 18:09:21 INFO  GetAllUsersRestAPI:44 - *************Checking Response Body*************
+  2022-03-15 18:09:21 INFO  GetAllUsersRestAPI:46 - Response body ===>{"name":"AkshayU","job":"QAXSY","id":"363","createdAt":"2022-03-15T12:39:18.467Z"}
+  2022-03-15 18:09:21 INFO  GetAllUsersRestAPI:55 - *************Checking Status Code*************
+  2022-03-15 18:09:21 INFO  GetAllUsersRestAPI:57 - Status Code is ==>201
+  2022-03-15 18:09:21 INFO  GetAllUsersRestAPI:64 - *************Checking Status Line*************
+  2022-03-15 18:09:21 INFO  GetAllUsersRestAPI:66 - Status line is ==>HTTP/1.1 201 Created
+  2022-03-16 10:01:18 INFO  REQRESAPITesting:17 - *************Started TC_001_Get All Users*************
+  2022-03-16 10:01:28 INFO  REQRESAPITesting:69 - *************Checking Content Type*************
+  2022-03-16 10:01:28 INFO  REQRESAPITesting:71 - Content Type is ==>application/json; charset=utf-8
+  2022-03-16 10:01:28 INFO  REQRESAPITesting:28 - *************Checking Response Body*************
+  2022-03-16 10:01:28 INFO  REQRESAPITesting:30 - Response body ===>{"page":2,"per_page":6,"total":12,"total_pages":2,"data":[{"id":7,"email":"michael.lawson@reqres.in","first_name":"Michael","last_name":"Lawson","avatar":"https://reqres.in/img/faces/7-image.jpg"},{"id":8,"email":"lindsay.ferguson@reqres.in","first_name":"Lindsay","last_name":"Ferguson","avatar":"https://reqres.in/img/faces/8-image.jpg"},{"id":9,"email":"tobias.funke@reqres.in","first_name":"Tobias","last_name":"Funke","avatar":"https://reqres.in/img/faces/9-image.jpg"},{"id":10,"email":"byron.fields@reqres.in","first_name":"Byron","last_name":"Fields","avatar":"https://reqres.in/img/faces/10-image.jpg"},{"id":11,"email":"george.edwards@reqres.in","first_name":"George","last_name":"Edwards","avatar":"https://reqres.in/img/faces/11-image.jpg"},{"id":12,"email":"rachel.howell@reqres.in","first_name":"Rachel","last_name":"Howell","avatar":"https://reqres.in/img/faces/12-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+  2022-03-16 10:01:28 INFO  REQRESAPITesting:46 - *************Checking Response Time*************
+  2022-03-16 10:01:28 INFO  REQRESAPITesting:48 - Response time is ===>2690
+  2022-03-16 10:01:28 WARN  REQRESAPITesting:51 - Response Time is greater than 2000 milliseconds
+  2022-03-16 10:01:28 INFO  REQRESAPITesting:37 - *************Checking Status Code*************
+  2022-03-16 10:01:28 INFO  REQRESAPITesting:39 - Status Code is ===>200
+  2022-03-16 10:01:28 INFO  REQRESAPITesting:60 - *************Checking Status Line*************
+  2022-03-16 10:01:28 INFO  REQRESAPITesting:62 - Status line is ==>HTTP/1.1 200 OK
+  2022-03-16 10:01:29 INFO  REQRESAPITesting:79 - *************Finished TC_001_Get All Usersr*************
+  2022-03-16 10:01:29 INFO  REQRESAPITesting:21 - *************Started TC_002_Get User*************
+  2022-03-16 10:01:31 INFO  REQRESAPITesting:78 - *************Checking Content Length*************
+  2022-03-16 10:01:31 INFO  REQRESAPITesting:50 - *************Checking Content Type*************
+  2022-03-16 10:01:31 INFO  REQRESAPITesting:52 - Content Type is ==>application/json; charset=utf-8
+  2022-03-16 10:01:31 INFO  REQRESAPITesting:31 - *************Checking Response Body*************
+  2022-03-16 10:01:31 INFO  REQRESAPITesting:33 - Response body ===>{"data":{"id":2,"name":"fuchsia rose","year":2001,"color":"#C74375","pantone_value":"17-2031"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+  2022-03-16 10:01:31 INFO  REQRESAPITesting:67 - *************Checking Server Type*************
+  2022-03-16 10:01:31 INFO  REQRESAPITesting:69 - Server Type is ==>cloudflare
+  2022-03-16 10:01:31 INFO  REQRESAPITesting:59 - *************Checking Status Code*************
+  2022-03-16 10:01:31 INFO  REQRESAPITesting:61 - Status Code is ===>200
+  2022-03-16 10:01:31 INFO  REQRESAPITesting:41 - *************Checking Status Line*************
+  2022-03-16 10:01:31 INFO  REQRESAPITesting:43 - Status line is ==>HTTP/1.1 200 OK
+  2022-03-16 10:01:31 INFO  REQRESAPITesting:89 - *************Finished TC_002_Get User*************
+  2022-03-16 10:01:31 INFO  REQRESAPITesting:26 - *************Started TC_003_Post Create Users*************
+  2022-03-16 10:01:35 INFO  REQRESAPITesting:44 - *************Checking Response Body*************
+  2022-03-16 10:01:35 INFO  REQRESAPITesting:46 - Response body ===>{"name":"AkshayA","job":"QAmuK","id":"513","createdAt":"2022-03-16T04:31:31.460Z"}
+  2022-03-16 10:01:35 INFO  REQRESAPITesting:55 - *************Checking Status Code*************
+  2022-03-16 10:01:35 INFO  REQRESAPITesting:57 - Status Code is ==>201
+  2022-03-16 10:01:35 INFO  REQRESAPITesting:64 - *************Checking Status Line*************
+  2022-03-16 10:01:35 INFO  REQRESAPITesting:66 - Status line is ==>HTTP/1.1 201 Created
+  2022-03-16 10:01:35 INFO  REQRESAPITesting:73 - *************Finished TC_003_Post Create User*************
+  2022-03-16 10:08:13 INFO  REQRESAPITesting:17 - *************Started TC_001_Get All Users*************
+  2022-03-16 10:08:27 INFO  REQRESAPITesting:69 - *************Checking Content Type*************
+  2022-03-16 10:08:27 INFO  REQRESAPITesting:71 - Content Type is ==>application/json; charset=utf-8
+  2022-03-16 10:08:27 INFO  REQRESAPITesting:28 - *************Checking Response Body*************
+  2022-03-16 10:08:27 INFO  REQRESAPITesting:30 - Response body ===>{"page":2,"per_page":6,"total":12,"total_pages":2,"data":[{"id":7,"email":"michael.lawson@reqres.in","first_name":"Michael","last_name":"Lawson","avatar":"https://reqres.in/img/faces/7-image.jpg"},{"id":8,"email":"lindsay.ferguson@reqres.in","first_name":"Lindsay","last_name":"Ferguson","avatar":"https://reqres.in/img/faces/8-image.jpg"},{"id":9,"email":"tobias.funke@reqres.in","first_name":"Tobias","last_name":"Funke","avatar":"https://reqres.in/img/faces/9-image.jpg"},{"id":10,"email":"byron.fields@reqres.in","first_name":"Byron","last_name":"Fields","avatar":"https://reqres.in/img/faces/10-image.jpg"},{"id":11,"email":"george.edwards@reqres.in","first_name":"George","last_name":"Edwards","avatar":"https://reqres.in/img/faces/11-image.jpg"},{"id":12,"email":"rachel.howell@reqres.in","first_name":"Rachel","last_name":"Howell","avatar":"https://reqres.in/img/faces/12-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+  2022-03-16 10:08:27 INFO  REQRESAPITesting:46 - *************Checking Response Time*************
+  2022-03-16 10:08:27 INFO  REQRESAPITesting:48 - Response time is ===>3961
+  2022-03-16 10:08:27 WARN  REQRESAPITesting:51 - Response Time is greater than 2000 milliseconds
+  2022-03-16 10:08:27 INFO  REQRESAPITesting:37 - *************Checking Status Code*************
+  2022-03-16 10:08:27 INFO  REQRESAPITesting:39 - Status Code is ===>200
+  2022-03-16 10:08:27 INFO  REQRESAPITesting:60 - *************Checking Status Line*************
+  2022-03-16 10:08:27 INFO  REQRESAPITesting:62 - Status line is ==>HTTP/1.1 200 OK
+  2022-03-16 10:08:27 INFO  REQRESAPITesting:79 - *************Finished TC_001_Get All Usersr*************
+  2022-03-16 10:08:27 INFO  REQRESAPITesting:21 - *************Started TC_002_Get User*************
+  2022-03-16 10:08:29 INFO  REQRESAPITesting:78 - *************Checking Content Length*************
+  2022-03-16 10:08:29 INFO  REQRESAPITesting:50 - *************Checking Content Type*************
+  2022-03-16 10:08:29 INFO  REQRESAPITesting:52 - Content Type is ==>application/json; charset=utf-8
+  2022-03-16 10:08:29 INFO  REQRESAPITesting:31 - *************Checking Response Body*************
+  2022-03-16 10:08:29 INFO  REQRESAPITesting:33 - Response body ===>{"data":{"id":2,"name":"fuchsia rose","year":2001,"color":"#C74375","pantone_value":"17-2031"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+  2022-03-16 10:08:29 INFO  REQRESAPITesting:67 - *************Checking Server Type*************
+  2022-03-16 10:08:29 INFO  REQRESAPITesting:69 - Server Type is ==>cloudflare
+  2022-03-16 10:08:29 INFO  REQRESAPITesting:59 - *************Checking Status Code*************
+  2022-03-16 10:08:29 INFO  REQRESAPITesting:61 - Status Code is ===>200
+  2022-03-16 10:08:29 INFO  REQRESAPITesting:41 - *************Checking Status Line*************
+  2022-03-16 10:08:29 INFO  REQRESAPITesting:43 - Status line is ==>HTTP/1.1 200 OK
+  2022-03-16 10:08:29 INFO  REQRESAPITesting:89 - *************Finished TC_002_Get User*************
+  2022-03-16 10:08:29 INFO  REQRESAPITesting:26 - *************Started TC_003_Post Create Users*************
+  2022-03-16 10:08:33 INFO  REQRESAPITesting:44 - *************Checking Response Body*************
+  2022-03-16 10:08:33 INFO  REQRESAPITesting:46 - Response body ===>{"name":"Akshayq","job":"QAFkZ","id":"633","createdAt":"2022-03-16T04:38:29.980Z"}
+  2022-03-16 10:08:33 INFO  REQRESAPITesting:55 - *************Checking Status Code*************
+  2022-03-16 10:08:33 INFO  REQRESAPITesting:57 - Status Code is ==>201
+  2022-03-16 10:08:33 INFO  REQRESAPITesting:64 - *************Checking Status Line*************
+  2022-03-16 10:08:33 INFO  REQRESAPITesting:66 - Status line is ==>HTTP/1.1 201 Created
+  2022-03-16 10:08:33 INFO  REQRESAPITesting:73 - *************Finished TC_003_Post Create User*************
+  2022-03-16 10:10:51 INFO  REQRESAPITesting:17 - *************Started TC_001_Get All Users*************
+  2022-03-16 10:11:01 INFO  REQRESAPITesting:69 - *************Checking Content Type*************
+  2022-03-16 10:11:01 INFO  REQRESAPITesting:71 - Content Type is ==>application/json; charset=utf-8
+  2022-03-16 10:11:01 INFO  REQRESAPITesting:28 - *************Checking Response Body*************
+  2022-03-16 10:11:01 INFO  REQRESAPITesting:30 - Response body ===>{"page":2,"per_page":6,"total":12,"total_pages":2,"data":[{"id":7,"email":"michael.lawson@reqres.in","first_name":"Michael","last_name":"Lawson","avatar":"https://reqres.in/img/faces/7-image.jpg"},{"id":8,"email":"lindsay.ferguson@reqres.in","first_name":"Lindsay","last_name":"Ferguson","avatar":"https://reqres.in/img/faces/8-image.jpg"},{"id":9,"email":"tobias.funke@reqres.in","first_name":"Tobias","last_name":"Funke","avatar":"https://reqres.in/img/faces/9-image.jpg"},{"id":10,"email":"byron.fields@reqres.in","first_name":"Byron","last_name":"Fields","avatar":"https://reqres.in/img/faces/10-image.jpg"},{"id":11,"email":"george.edwards@reqres.in","first_name":"George","last_name":"Edwards","avatar":"https://reqres.in/img/faces/11-image.jpg"},{"id":12,"email":"rachel.howell@reqres.in","first_name":"Rachel","last_name":"Howell","avatar":"https://reqres.in/img/faces/12-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+  2022-03-16 10:11:01 INFO  REQRESAPITesting:46 - *************Checking Response Time*************
+  2022-03-16 10:11:01 INFO  REQRESAPITesting:48 - Response time is ===>2158
+  2022-03-16 10:11:01 WARN  REQRESAPITesting:51 - Response Time is greater than 2000 milliseconds
+  2022-03-16 10:11:01 INFO  REQRESAPITesting:37 - *************Checking Status Code*************
+  2022-03-16 10:11:01 INFO  REQRESAPITesting:39 - Status Code is ===>200
+  2022-03-16 10:11:01 INFO  REQRESAPITesting:60 - *************Checking Status Line*************
+  2022-03-16 10:11:01 INFO  REQRESAPITesting:62 - Status line is ==>HTTP/1.1 200 OK
+  2022-03-16 10:11:01 INFO  REQRESAPITesting:79 - *************Finished TC_001_Get All Usersr*************
+  2022-03-16 10:11:01 INFO  REQRESAPITesting:21 - *************Started TC_002_Get User*************
+  2022-03-16 10:11:03 INFO  REQRESAPITesting:78 - *************Checking Content Length*************
+  2022-03-16 10:11:03 INFO  REQRESAPITesting:50 - *************Checking Content Type*************
+  2022-03-16 10:11:03 INFO  REQRESAPITesting:52 - Content Type is ==>application/json; charset=utf-8
+  2022-03-16 10:11:03 INFO  REQRESAPITesting:31 - *************Checking Response Body*************
+  2022-03-16 10:11:03 INFO  REQRESAPITesting:33 - Response body ===>{"data":{"id":2,"name":"fuchsia rose","year":2001,"color":"#C74375","pantone_value":"17-2031"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+  2022-03-16 10:11:03 INFO  REQRESAPITesting:67 - *************Checking Server Type*************
+  2022-03-16 10:11:03 INFO  REQRESAPITesting:69 - Server Type is ==>cloudflare
+  2022-03-16 10:11:03 INFO  REQRESAPITesting:59 - *************Checking Status Code*************
+  2022-03-16 10:11:03 INFO  REQRESAPITesting:61 - Status Code is ===>200
+  2022-03-16 10:11:03 INFO  REQRESAPITesting:41 - *************Checking Status Line*************
+  2022-03-16 10:11:03 INFO  REQRESAPITesting:43 - Status line is ==>HTTP/1.1 200 OK
+  2022-03-16 10:11:03 INFO  REQRESAPITesting:89 - *************Finished TC_002_Get User*************
+  2022-03-16 10:11:03 INFO  REQRESAPITesting:26 - *************Started TC_003_Post Create Users*************
+  2022-03-16 10:11:07 INFO  REQRESAPITesting:44 - *************Checking Response Body*************
+  2022-03-16 10:11:07 INFO  REQRESAPITesting:46 - Response body ===>{"name":"AkshayF","job":"QAoMe","id":"887","createdAt":"2022-03-16T04:41:04.005Z"}
+  2022-03-16 10:11:07 INFO  REQRESAPITesting:55 - *************Checking Status Code*************
+  2022-03-16 10:11:07 INFO  REQRESAPITesting:57 - Status Code is ==>201
+  2022-03-16 10:11:07 INFO  REQRESAPITesting:64 - *************Checking Status Line*************
+  2022-03-16 10:11:07 INFO  REQRESAPITesting:66 - Status line is ==>HTTP/1.1 201 Created
+  2022-03-16 10:11:07 INFO  REQRESAPITesting:73 - *************Finished TC_003_Post Create User*************
+  2022-03-16 10:29:05 INFO  REQRESAPITesting:17 - *************Started TC_001_Get All Users*************
+  2022-03-16 10:29:15 INFO  REQRESAPITesting:69 - *************Checking Content Type*************
+  2022-03-16 10:29:15 INFO  REQRESAPITesting:71 - Content Type is ==>application/json; charset=utf-8
+  2022-03-16 10:29:15 INFO  REQRESAPITesting:28 - *************Checking Response Body*************
+  2022-03-16 10:29:15 INFO  REQRESAPITesting:30 - Response body ===>{"page":2,"per_page":6,"total":12,"total_pages":2,"data":[{"id":7,"email":"michael.lawson@reqres.in","first_name":"Michael","last_name":"Lawson","avatar":"https://reqres.in/img/faces/7-image.jpg"},{"id":8,"email":"lindsay.ferguson@reqres.in","first_name":"Lindsay","last_name":"Ferguson","avatar":"https://reqres.in/img/faces/8-image.jpg"},{"id":9,"email":"tobias.funke@reqres.in","first_name":"Tobias","last_name":"Funke","avatar":"https://reqres.in/img/faces/9-image.jpg"},{"id":10,"email":"byron.fields@reqres.in","first_name":"Byron","last_name":"Fields","avatar":"https://reqres.in/img/faces/10-image.jpg"},{"id":11,"email":"george.edwards@reqres.in","first_name":"George","last_name":"Edwards","avatar":"https://reqres.in/img/faces/11-image.jpg"},{"id":12,"email":"rachel.howell@reqres.in","first_name":"Rachel","last_name":"Howell","avatar":"https://reqres.in/img/faces/12-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+  2022-03-16 10:29:15 INFO  REQRESAPITesting:46 - *************Checking Response Time*************
+  2022-03-16 10:29:15 INFO  REQRESAPITesting:48 - Response time is ===>3268
+  2022-03-16 10:29:15 WARN  REQRESAPITesting:51 - Response Time is greater than 2000 milliseconds
+  2022-03-16 10:29:15 INFO  REQRESAPITesting:37 - *************Checking Status Code*************
+  2022-03-16 10:29:15 INFO  REQRESAPITesting:39 - Status Code is ===>200
+  2022-03-16 10:29:15 INFO  REQRESAPITesting:60 - *************Checking Status Line*************
+  2022-03-16 10:29:15 INFO  REQRESAPITesting:62 - Status line is ==>HTTP/1.1 200 OK
+  2022-03-16 10:29:15 INFO  REQRESAPITesting:79 - *************Finished TC_001_Get All Usersr*************
+  2022-03-16 10:29:15 INFO  REQRESAPITesting:21 - *************Started TC_002_Get User*************
+  2022-03-16 10:29:18 INFO  REQRESAPITesting:78 - *************Checking Content Length*************
+  2022-03-16 10:29:18 INFO  REQRESAPITesting:50 - *************Checking Content Type*************
+  2022-03-16 10:29:18 INFO  REQRESAPITesting:52 - Content Type is ==>application/json; charset=utf-8
+  2022-03-16 10:29:18 INFO  REQRESAPITesting:31 - *************Checking Response Body*************
+  2022-03-16 10:29:18 INFO  REQRESAPITesting:33 - Response body ===>{"data":{"id":2,"name":"fuchsia rose","year":2001,"color":"#C74375","pantone_value":"17-2031"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+  2022-03-16 10:29:18 INFO  REQRESAPITesting:67 - *************Checking Server Type*************
+  2022-03-16 10:29:18 INFO  REQRESAPITesting:69 - Server Type is ==>cloudflare
+  2022-03-16 10:29:18 INFO  REQRESAPITesting:59 - *************Checking Status Code*************
+  2022-03-16 10:29:18 INFO  REQRESAPITesting:61 - Status Code is ===>200
+  2022-03-16 10:29:18 INFO  REQRESAPITesting:41 - *************Checking Status Line*************
+  2022-03-16 10:29:18 INFO  REQRESAPITesting:43 - Status line is ==>HTTP/1.1 200 OK
+  2022-03-16 10:29:18 INFO  REQRESAPITesting:89 - *************Finished TC_002_Get User*************
+  2022-03-16 10:29:18 INFO  REQRESAPITesting:26 - *************Started TC_003_Post Create Users*************
+  2022-03-16 10:29:21 INFO  REQRESAPITesting:44 - *************Checking Response Body*************
+  2022-03-16 10:29:21 INFO  REQRESAPITesting:46 - Response body ===>{"name":"AkshayF","job":"QAwJh","id":"291","createdAt":"2022-03-16T04:59:18.112Z"}
+  2022-03-16 10:29:21 INFO  REQRESAPITesting:55 - *************Checking Status Code*************
+  2022-03-16 10:29:21 INFO  REQRESAPITesting:57 - Status Code is ==>201
+  2022-03-16 10:29:21 INFO  REQRESAPITesting:64 - *************Checking Status Line*************
+  2022-03-16 10:29:21 INFO  REQRESAPITesting:66 - Status line is ==>HTTP/1.1 201 Created
+  2022-03-16 10:29:21 INFO  REQRESAPITesting:73 - *************Finished TC_003_Post Create User*************
+  2022-03-16 10:39:01 INFO  REQRESAPITesting:17 - *************Started TC_001_Get All Users*************
+  2022-03-16 10:39:11 INFO  REQRESAPITesting:69 - *************Checking Content Type*************
+  2022-03-16 10:39:11 INFO  REQRESAPITesting:71 - Content Type is ==>application/json; charset=utf-8
+  2022-03-16 10:39:11 INFO  REQRESAPITesting:28 - *************Checking Response Body*************
+  2022-03-16 10:39:11 INFO  REQRESAPITesting:30 - Response body ===>{"page":2,"per_page":6,"total":12,"total_pages":2,"data":[{"id":7,"email":"michael.lawson@reqres.in","first_name":"Michael","last_name":"Lawson","avatar":"https://reqres.in/img/faces/7-image.jpg"},{"id":8,"email":"lindsay.ferguson@reqres.in","first_name":"Lindsay","last_name":"Ferguson","avatar":"https://reqres.in/img/faces/8-image.jpg"},{"id":9,"email":"tobias.funke@reqres.in","first_name":"Tobias","last_name":"Funke","avatar":"https://reqres.in/img/faces/9-image.jpg"},{"id":10,"email":"byron.fields@reqres.in","first_name":"Byron","last_name":"Fields","avatar":"https://reqres.in/img/faces/10-image.jpg"},{"id":11,"email":"george.edwards@reqres.in","first_name":"George","last_name":"Edwards","avatar":"https://reqres.in/img/faces/11-image.jpg"},{"id":12,"email":"rachel.howell@reqres.in","first_name":"Rachel","last_name":"Howell","avatar":"https://reqres.in/img/faces/12-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+  2022-03-16 10:39:11 INFO  REQRESAPITesting:46 - *************Checking Response Time*************
+  2022-03-16 10:39:11 INFO  REQRESAPITesting:48 - Response time is ===>3245
+  2022-03-16 10:39:11 WARN  REQRESAPITesting:51 - Response Time is greater than 2000 milliseconds
+  2022-03-16 10:39:11 INFO  REQRESAPITesting:37 - *************Checking Status Code*************
+  2022-03-16 10:39:11 INFO  REQRESAPITesting:39 - Status Code is ===>200
+  2022-03-16 10:39:11 INFO  REQRESAPITesting:60 - *************Checking Status Line*************
+  2022-03-16 10:39:11 INFO  REQRESAPITesting:62 - Status line is ==>HTTP/1.1 200 OK
+  2022-03-16 10:39:11 INFO  REQRESAPITesting:79 - *************Finished TC_001_Get All Usersr*************
+  2022-03-16 10:39:11 INFO  REQRESAPITesting:21 - *************Started TC_002_Get User*************
+  2022-03-16 10:39:13 INFO  REQRESAPITesting:78 - *************Checking Content Length*************
+  2022-03-16 10:39:13 INFO  REQRESAPITesting:50 - *************Checking Content Type*************
+  2022-03-16 10:39:13 INFO  REQRESAPITesting:52 - Content Type is ==>application/json; charset=utf-8
+  2022-03-16 10:39:13 INFO  REQRESAPITesting:31 - *************Checking Response Body*************
+  2022-03-16 10:39:13 INFO  REQRESAPITesting:33 - Response body ===>{"data":{"id":2,"name":"fuchsia rose","year":2001,"color":"#C74375","pantone_value":"17-2031"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+  2022-03-16 10:39:13 INFO  REQRESAPITesting:67 - *************Checking Server Type*************
+  2022-03-16 10:39:13 INFO  REQRESAPITesting:69 - Server Type is ==>cloudflare
+  2022-03-16 10:39:13 INFO  REQRESAPITesting:59 - *************Checking Status Code*************
+  2022-03-16 10:39:13 INFO  REQRESAPITesting:61 - Status Code is ===>200
+  2022-03-16 10:39:13 INFO  REQRESAPITesting:41 - *************Checking Status Line*************
+  2022-03-16 10:39:13 INFO  REQRESAPITesting:43 - Status line is ==>HTTP/1.1 200 OK
+  2022-03-16 10:39:13 INFO  REQRESAPITesting:89 - *************Finished TC_002_Get User*************
+  2022-03-16 10:39:13 INFO  REQRESAPITesting:26 - *************Started TC_003_Post Create Users*************
+  2022-03-16 10:39:16 INFO  REQRESAPITesting:44 - *************Checking Response Body*************
+  2022-03-16 10:39:16 INFO  REQRESAPITesting:46 - Response body ===>{"name":"Akshayp","job":"QAsZN","id":"137","createdAt":"2022-03-16T05:09:13.514Z"}
+  2022-03-16 10:39:16 INFO  REQRESAPITesting:55 - *************Checking Status Code*************
+  2022-03-16 10:39:16 INFO  REQRESAPITesting:57 - Status Code is ==>201
+  2022-03-16 10:39:16 INFO  REQRESAPITesting:64 - *************Checking Status Line*************
+  2022-03-16 10:39:17 INFO  REQRESAPITesting:66 - Status line is ==>HTTP/1.1 201 Created
+  2022-03-16 10:39:17 INFO  REQRESAPITesting:73 - *************Finished TC_003_Post Create User*************
+  2022-03-16 10:51:29 INFO  REQRESAPITesting:17 - *************Started TC_001_Get All Users*************
+  2022-03-16 10:51:39 INFO  REQRESAPITesting:69 - *************Checking Content Type*************
+  2022-03-16 10:51:39 INFO  REQRESAPITesting:71 - Content Type is ==>application/json; charset=utf-8
+  2022-03-16 10:51:39 INFO  REQRESAPITesting:28 - *************Checking Response Body*************
+  2022-03-16 10:51:39 INFO  REQRESAPITesting:30 - Response body ===>{"page":2,"per_page":6,"total":12,"total_pages":2,"data":[{"id":7,"email":"michael.lawson@reqres.in","first_name":"Michael","last_name":"Lawson","avatar":"https://reqres.in/img/faces/7-image.jpg"},{"id":8,"email":"lindsay.ferguson@reqres.in","first_name":"Lindsay","last_name":"Ferguson","avatar":"https://reqres.in/img/faces/8-image.jpg"},{"id":9,"email":"tobias.funke@reqres.in","first_name":"Tobias","last_name":"Funke","avatar":"https://reqres.in/img/faces/9-image.jpg"},{"id":10,"email":"byron.fields@reqres.in","first_name":"Byron","last_name":"Fields","avatar":"https://reqres.in/img/faces/10-image.jpg"},{"id":11,"email":"george.edwards@reqres.in","first_name":"George","last_name":"Edwards","avatar":"https://reqres.in/img/faces/11-image.jpg"},{"id":12,"email":"rachel.howell@reqres.in","first_name":"Rachel","last_name":"Howell","avatar":"https://reqres.in/img/faces/12-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+  2022-03-16 10:51:39 INFO  REQRESAPITesting:46 - *************Checking Response Time*************
+  2022-03-16 10:51:39 INFO  REQRESAPITesting:48 - Response time is ===>2653
+  2022-03-16 10:51:39 WARN  REQRESAPITesting:51 - Response Time is greater than 2000 milliseconds
+  2022-03-16 10:51:39 INFO  REQRESAPITesting:37 - *************Checking Status Code*************
+  2022-03-16 10:51:39 INFO  REQRESAPITesting:39 - Status Code is ===>200
+  2022-03-16 10:51:39 INFO  REQRESAPITesting:60 - *************Checking Status Line*************
+  2022-03-16 10:51:39 INFO  REQRESAPITesting:62 - Status line is ==>HTTP/1.1 200 OK
+  2022-03-16 10:51:39 INFO  REQRESAPITesting:79 - *************Finished TC_001_Get All Usersr*************
+  2022-03-16 10:51:39 INFO  REQRESAPITesting:21 - *************Started TC_002_Get User*************
+  2022-03-16 10:51:41 INFO  REQRESAPITesting:78 - *************Checking Content Length*************
+  2022-03-16 10:51:41 INFO  REQRESAPITesting:50 - *************Checking Content Type*************
+  2022-03-16 10:51:41 INFO  REQRESAPITesting:52 - Content Type is ==>application/json; charset=utf-8
+  2022-03-16 10:51:41 INFO  REQRESAPITesting:31 - *************Checking Response Body*************
+  2022-03-16 10:51:41 INFO  REQRESAPITesting:33 - Response body ===>{"data":{"id":2,"name":"fuchsia rose","year":2001,"color":"#C74375","pantone_value":"17-2031"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+  2022-03-16 10:51:41 INFO  REQRESAPITesting:67 - *************Checking Server Type*************
+  2022-03-16 10:51:41 INFO  REQRESAPITesting:69 - Server Type is ==>cloudflare
+  2022-03-16 10:51:41 INFO  REQRESAPITesting:59 - *************Checking Status Code*************
+  2022-03-16 10:51:41 INFO  REQRESAPITesting:61 - Status Code is ===>200
+  2022-03-16 10:51:41 INFO  REQRESAPITesting:41 - *************Checking Status Line*************
+  2022-03-16 10:51:41 INFO  REQRESAPITesting:43 - Status line is ==>HTTP/1.1 200 OK
+  2022-03-16 10:51:41 INFO  REQRESAPITesting:89 - *************Finished TC_002_Get User*************
+  2022-03-16 10:51:41 INFO  REQRESAPITesting:26 - *************Started TC_003_Post Create Users*************
+  2022-03-16 10:51:45 INFO  REQRESAPITesting:44 - *************Checking Response Body*************
+  2022-03-16 10:51:45 INFO  REQRESAPITesting:46 - Response body ===>{"name":"AkshayQ","job":"QAZRN","id":"178","createdAt":"2022-03-16T05:21:41.982Z"}
+  2022-03-16 10:51:45 INFO  REQRESAPITesting:55 - *************Checking Status Code*************
+  2022-03-16 10:51:45 INFO  REQRESAPITesting:57 - Status Code is ==>201
+  2022-03-16 10:51:45 INFO  REQRESAPITesting:64 - *************Checking Status Line*************
+  2022-03-16 10:51:45 INFO  REQRESAPITesting:66 - Status line is ==>HTTP/1.1 201 Created
+  2022-03-16 10:51:45 INFO  REQRESAPITesting:73 - *************Finished TC_003_Post Create User*************
+  
